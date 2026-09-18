@@ -1,0 +1,20 @@
+package Jobsheet3;
+
+public class Motor {
+    public String platNomor;
+    public boolean isMesinOn;
+    public int kecepatan;
+
+    public void displayStatus(){
+        System.out.println("Plat Nomor: " + this.platNomor);
+        
+        if (isMesinOn) {
+            System.out.println("Mesin ON");
+        } else {
+            System.out.println("Mesin OFF");
+        }
+
+        System.out.println("Kecepatan: " + this.kecepatan);
+        System.out.println("===========================");
+    }
+}
