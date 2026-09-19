@@ -26,14 +26,14 @@ public class MahasiswaDemo {
         System.out.println("IPK    : " + mhs1.getIpk());
         System.out.println();
 
-        // 5. Validasi IPK (Uji coba memasukkan IPK di luar 0.00–4.00)
+        // 4. Coba akses atribut private secara langsung
+        //mhs1.nim = "2301099";
+        //System.out.println(mhs1.nama);
+        
+        // 5. Validasi IPK (Uji coba memasukkan IPK di luar 0.00-4.00)
         System.out.println("=== UJI VALIDASI IPK ===");
         mhs2.setIpk(4.50);
         System.out.println("IPK mhs2 saat ini: " + mhs2.getIpk());
         System.out.println();
-
-        // 4. Coba akses atribut private secara langsung
-        //mhs1.nim = "2301099";
-        //System.out.println(mhs1.nama);
     }
 }
