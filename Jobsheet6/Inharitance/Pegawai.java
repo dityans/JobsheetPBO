@@ -1,4 +1,4 @@
-package Jobsheet6;
+package Jobsheet6.Inharitance;
 
 public class Pegawai {
     public String nip;
